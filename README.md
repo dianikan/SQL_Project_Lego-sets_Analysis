@@ -39,6 +39,6 @@ The dataset used in this analysis contains information about LEGO sets, includin
 use lego_sets;
 select count(distinct set_id) from lego_sets;
 select count(*) as lego_set, year from lego_sets group by year order by year;
-![LEGO Sets by Year](images/lego_sets_by_year.png)
+![LEGO Sets by Year](images/lego_sets_by_year.png.png)
 
 This chart shows the number of Lego sets that were released each year.
